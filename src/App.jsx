@@ -1,7 +1,5 @@
 import ToastContainer from "./components/ToastContainer";
-import ToastContextProvider, {
-  useToastContext,
-} from "./contexts/ToastContextProvider";
+import { useToastContext } from "./contexts/ToastContextProvider";
 
 function App() {
   const { setVisible, setType } = useToastContext();
